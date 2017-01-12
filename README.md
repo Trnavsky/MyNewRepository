@@ -67,10 +67,9 @@ It is always combination of CONTROLLINO_ and the text description of the screw t
 For example, for MINI we have defined following aliases:
 
 ` CONTROLLINO_D0`
-
 ` CONTROLLINO_D1`
-
 ` CONTROLLINO_D2`
+
 
 ` CONTROLLINO_D3`
 ` CONTROLLINO_D4`
