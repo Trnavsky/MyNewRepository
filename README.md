@@ -1,5 +1,3 @@
-![alt tag](https://github.com/Trnavsky/MyNewRepository/raw/master/controllino1x.png)
-
 # CONTROLLINO
 
 ### FIRST SOFTWARE OPEN-SOURCE PLC (ARDUINO compatible)
@@ -205,3 +203,26 @@ Please note that RS485 interface is present ony in MAXI and MEGA variants.
  *  @return Returns 0 when succeeded, -1 for unsupported mode
  *  
 `char Controllino_SwitchRS485DE(char mode)`
+
+## Installation guide
+
+1. General requirements
+ * PC with Arduino IDE (1.6.4 or newer) (Windows, Linux, MAC)
+ * Internet connection
+
+2. CONTROLLINO library
+ * Start Arduino IDE, navigate to Sketch–>Include Library–>Manage Libraries
+ * In Library Manager type CONTROLLINO into the filter text box and search for CONTROLLINO library.
+ * When found, select the lates version and install it. The installation process should be fully automated.
+ * When finished - check in Sketch–>Include Library menu that you can see the CONTROLLINO library there.
+ * You can also check if you can see the set of CONTROLLINO examples in File->Examples->CONTROLLINO
+
+3. Controllino Hardware
+ * Navigate to File–>Preferences 
+ * Copy following link to Additional Boards Manager URLs: 
+https://raw.githubusercontent.com/Controllino/ControllinoHardware/master/package_ControllinoHardware_index.json
+ * Press OK button
+ * Then navigate to Tools–>Board: “Foo“–>Boards Manager
+ * In Boards Manager type CONTROLLINO into the filter text box and search for CONTROLLINO boards 
+ * When found, select the lates version and install it. The installation process should be fully automated.
+ * When finished - check in Tools–>Board: “Foo“–> menu that you can see the CONTROLLINO boards there.
