@@ -1,3 +1,5 @@
+![alt tag](https://controllino.biz/wp-content/uploads/2014/12/controllino1x.png)
+
 # CONTROLLINO
 
 ### FIRST SOFTWARE OPEN-SOURCE PLC (ARDUINO compatible)
