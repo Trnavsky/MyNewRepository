@@ -1,4 +1,4 @@
-![alt tag](https://controllino.biz/wp-content/uploads/2014/12/controllino1x.png)
+![alt tag](https://github.com/Trnavsky/MyNewRepository/raw/master/controllino1x.png)
 
 # CONTROLLINO
 
