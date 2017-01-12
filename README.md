@@ -22,9 +22,9 @@ Please note that CONTROLLINO exists in [3 different variants](#controllino_mini)
 * 1x SPI Interface
 * 1x I2C Interface
 * Input current Max. 8A
-* 6x Relays Outputs – 230V / 6A
+* 6x Relays Outputs â€“ 230V / 6A
 * 8x Analog/Digital Inputs
-* 8x Digital Outputs – 2A @12V or 24V
+* 8x Digital Outputs â€“ 2A @12V or 24V
 
 ### CONTROLLINO MAXI
 * Microcontroller: ATmega2560
@@ -36,9 +36,9 @@ Please note that CONTROLLINO exists in [3 different variants](#controllino_mini)
 * 1x I2C Interface
 * 1x SPI Interface
 * Input current Max. 20A
-* 10x Relays Outputs – 230V / 6A
+* 10x Relays Outputs â€“ 230V / 6A
 * 12x Analog/Digital Inputs
-* 12x Digital Outputs – 2A @12V or 24V
+* 12x Digital Outputs â€“ 2A @12V or 24V
 
 ### CONTROLLINO MEGA
 * Microcontroller: ATmega2560
@@ -50,10 +50,10 @@ Please note that CONTROLLINO exists in [3 different variants](#controllino_mini)
 * 1x I2C Interface
 * 1x SPI Interface
 * Input current Max. 30A
-* 16x Relays Outputs – 230V / 6A
+* 16x Relays Outputs â€“ 230V / 6A
 * 21x Analog/Digital Inputs
-* 12x Digital Outputs – High Side Switch – 2A @12V or 24V
-* 12x Digital Outputs – Half-Bridge - 2A @12V or 24V
+* 12x Digital Outputs â€“ High Side Switch â€“ 2A @12V or 24V
+* 12x Digital Outputs â€“ Half-Bridge - 2A @12V or 24V
 
 ## Reference manual
 
@@ -65,9 +65,13 @@ Of course you can use Arduino native aliases for the pin numbers like A0, or 2, 
 It is always combination of CONTROLLINO_ and the text description of the screw terminal you can see on the device. 
 
 For example, for MINI we have defined following aliases:
+
 ` CONTROLLINO_D0`
+
 ` CONTROLLINO_D1`
+
 ` CONTROLLINO_D2`
+
 ` CONTROLLINO_D3`
 ` CONTROLLINO_D4`
 ` CONTROLLINO_D5`
