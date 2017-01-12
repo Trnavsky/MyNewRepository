@@ -3,7 +3,7 @@
 ### FIRST SOFTWARE OPEN-SOURCE PLC (ARDUINO compatible)
 https://controllino.biz/
 
-This GiHub repository contains all you need to start with CONTROLLINO devices programming in Arduino IDE.
+This GitHub repository contains all you need to start with CONTROLLINO devices programming in Arduino IDE.
 * Arduino IDE extension package for Boards Manager
   * See our [Installation guide](#installation-guide)
 * CONTROLLINO library for Library Manager
@@ -61,7 +61,7 @@ Please, make sure that you have included the CONTROLLINO library in your sketch.
 So, you can see `#include <Controllino.h>` at the top of your sketch.
 
 ### Aliases for the pins
-Of course you can use Arduino native aliases for the pin numbers like A0, or 2, but CONTROLLINO library provides you it's own set of aliases.
+Of course, you can use Arduino native aliases for the pin numbers like A0, or 2, but CONTROLLINO library provides you its own set of aliases.
 It is always combination of CONTROLLINO_ and the text description of the screw terminal you can see on the device. 
 
 For example, for MINI we have defined following aliases:
@@ -199,7 +199,7 @@ Please note that RS485 interface is present ony in MAXI and MEGA variants.
 `char Controllino_SwitchRS485RE(char mode)`
 
 ##### Control of RS485 bus DE signal 
- *  @param mode 0 for RS485 Data transmission Enable Inactive, 1 for Data transmission Enable Active
+ *  @param mode 0 for RS485 Data Transmission Enable Inactive, 1 for Data Transmission Enable Active
  *  @return Returns 0 when succeeded, -1 for unsupported mode
  *  
 `char Controllino_SwitchRS485DE(char mode)`
@@ -220,7 +220,7 @@ Please note that RS485 interface is present ony in MAXI and MEGA variants.
 3. CONTROLLINO boards hardware definition
  * Navigate to File–>Preferences 
  * Copy-paste the following link to the Additional Boards Manager URLs: 
-https://github.com/CONTROLLINO-PLC/CONTROLLINO_Library/raw/master/Boards/ControllinoHW.zip
+https://raw.githubusercontent.com/CONTROLLINO-PLC/CONTROLLINO_Library/master/Boards/package_ControllinoHardware_index.json
  * Press OK button
  * Then navigate to Tools–>Board: “Foo“–>Boards Manager
  * In the Boards Manager type CONTROLLINO into the filter text box and search for CONTROLLINO boards 
